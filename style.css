@@ -1,0 +1,96 @@
+.container {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  width: 700px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, p {
+  color: #262730;
+}
+
+h1, h2 {
+  letter-spacing: 5px;
+  font-family: 'Abhaya Libre', serif;
+  /* line-height: 10px; */
+  font-size: 18px;
+}
+
+p, a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+b {
+  font-weight: 500;
+  color: #AF3E4D;
+}
+
+a {
+  color: #AF3E4D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #AF3E4D;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#profile {
+  width: 150px;
+  border-radius: 50%;
+  /* box-shadow: 5px 5px 15px #262730; */
+}
+
+.card {
+  background-color: #F7F7FF;
+  border-radius: 5px;
+  border-width: 0.1px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn-blue {
+  color: #AF3E4D;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  font-weight: 500;
+}
